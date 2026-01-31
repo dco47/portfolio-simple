@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Metal_Mania, Rubik, Rajdhani } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Components/Nav/Nav";
+import Footer from "./Components/Footer/Footer";
 
 const rajdhani = Rajdhani({
   weight: "400",
@@ -48,6 +49,7 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <Footer/>
       </body>
     </html>
   );

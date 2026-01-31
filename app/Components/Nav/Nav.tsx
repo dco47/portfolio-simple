@@ -15,9 +15,9 @@ const NavLinks: NavLink[] = [
   { label: "Home", href: "/" },
   { label: "About", href: "#about" },
   { label: "Work", href: "#work" },
-  { label: "Services", href: "services" },
-  { label: "Portfolio", href: "portfolio" },
-  { label: "Contact", href: "contact" },
+  { label: "Services", href: "#services" },
+  { label: "Portfolio", href: "#portfolio" },
+  { label: "Contact", href: "#contact" },
 ];
 
 export default function Navbar() {

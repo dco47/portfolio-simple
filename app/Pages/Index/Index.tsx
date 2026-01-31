@@ -1,6 +1,7 @@
 import About from "./About/page";
 import Blog from "./Blogs/page";
 import Brands from "./Brands/page";
+import Contact from "./Contact/page";
 import Experience from "./Experience/page";
 import Hero from "./Hero/page";
 import InfoText from "./InfoText/page";
@@ -20,6 +21,7 @@ export default function Index() {
       <Experience />
       <Pricing />
       <Blog />
+      <Contact />
     </>
   )
 }
