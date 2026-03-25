@@ -13,8 +13,8 @@ type NavLink = {
 
 const NavLinks: NavLink[] = [
   { label: "Home", href: "/" },
-  { label: "About", href: "#about" },
-  { label: "Work", href: "#work" },
+  { label: "A propos", href: "#about" },
+  { label: "Travail", href: "#work" },
   { label: "Services", href: "#services" },
   { label: "Portfolio", href: "#portfolio" },
   { label: "Contact", href: "#contact" },
@@ -96,18 +96,22 @@ export default function Navbar() {
             </button>
           </div>
           {/* Mobile Menu */}
-          <div className={`lg:hidden fixed top-16 left-0 w-full z-50 transition-all duration-300 ${open ? "opacity-100 visible translate-y-0" : "opacity-0 invisible -translate-y-6"}`}>
-              <div className="mx-[5%] rounded-2xl bg-(--body) shadow-2xl border border-white/20">
-                <nav className="flex flex-col px-6 py-6 gap-5">
-                    {NavLinks.map((link) => (
-                       <Link key={link.label} href={link.href}
-                       className="flex items-center justify-between text-white border-b border-white/30 text-lg tracking-wide hover:text-(--prim) transition-all"
-                       >
-                        {link.label}
-                       </Link> 
-                    ))}
-                </nav>
-              </div>
+          <div
+            className={`lg:hidden fixed top-16 left-0 w-full z-50 transition-all duration-300 ${open ? "opacity-100 visible translate-y-0" : "opacity-0 invisible -translate-y-6"}`}
+          >
+            <div className="mx-[5%] rounded-2xl bg-(--body) shadow-2xl border border-white/20">
+              <nav className="flex flex-col px-6 py-6 gap-5">
+                {NavLinks.map((link) => (
+                  <Link
+                    key={link.label}
+                    href={link.href}
+                    className="flex items-center justify-between text-white border-b border-white/30 text-lg tracking-wide hover:text-(--prim) transition-all"
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </nav>
+            </div>
           </div>
         </div>
       </div>

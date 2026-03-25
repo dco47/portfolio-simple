@@ -14,8 +14,8 @@ export default function Footer() {
               </div>
             </Link>
             <h2 className="text-5xl Rajdhani mt-5">
-              <span className="font-semibold Rajdhani">Get Ready</span>to creat
-              Greate Greate
+              <span className="font-semibold Rajdhani">Préparez-vous </span>à créer
+              de grandes choses
             </h2>
             <div className="w-full lg:w-[70%] border-b border-r-gray-600 pb-2 flex justify-between items-center gap-2 mt-10">
               <input
@@ -28,7 +28,7 @@ export default function Footer() {
           </div>
           <div className="footer-col ps-0 md:ps-20">
             <h2 className="text-3xl Rajdhani font-semibold mb-5">
-              Quick Links
+              Lien Rapide
             </h2>
 
             <div className="flex w-fit footer-link flex-col gap-3">
@@ -39,12 +39,12 @@ export default function Footer() {
               </div>
               <div>
                 <Link href="/#about" className="text-xl">
-                  About
+                  A propos
                 </Link>
               </div>
               <div>
                 <Link href="/#work" className="text-xl">
-                  Work
+                  Travail
                 </Link>
               </div>
               <div>
@@ -60,7 +60,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="footer-col">
-            <h2 className="text-3xl Rajdhani font-semibold mb-5">Contact</h2>
+            <h2 className="text-3xl Rajdhani font-semibold mb-5">Contacts</h2>
 
             <div className="footer-contact-info">
               <div className="footer-info cursor-pointer flex items-center gap-2">
