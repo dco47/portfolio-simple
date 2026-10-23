@@ -6,7 +6,7 @@ export default function Contact() {
           <div className="flex flex-col lg:flex-row justify-between items-center">
             <div className="w-full lg:w-1/3">
               <h2 className="text-7xl Rajdhani font-semibold">
-                Get Ready To Create Great
+                Préparez-vous à créer de grandes choses
               </h2>
               <div className="my-5">
                 <div className="cursor-pointer flex items-center gap-2">
@@ -14,7 +14,7 @@ export default function Contact() {
                     <i className="bi bi-envelope-open-fill"></i>
                   </div>
                   <div>
-                    <h2 className="text-gray-400">Email</h2>
+                    <h2 className="text-gray-400">E-mail</h2>
                     <p className="Rajdhani font-semibold text-lg">
                       djablechristian0@gmail.com
                     </p>
@@ -25,9 +25,9 @@ export default function Contact() {
                     <i className="bi bi-geo-alt-fill"></i>
                   </div>
                   <div>
-                    <h2 className="text-gray-400">Address</h2>
+                    <h2 className="text-gray-400">Adresse</h2>
                     <p className="Rajdhani font-semibold text-lg">
-                      Abidjan, cocody-Angre
+                      Abidjan, Cocody-Angré
                     </p>
                   </div>
                 </div>
@@ -36,7 +36,7 @@ export default function Contact() {
                     <i className="bi bi-telephone-fill"></i>
                   </div>
                   <div>
-                    <h2 className="text-gray-400">Phone</h2>
+                    <h2 className="text-gray-400">Téléphone</h2>
                     <p className="Rajdhani font-semibold text-lg">
                       +225 07-57-98-51-47
                     </p>
@@ -51,26 +51,26 @@ export default function Contact() {
               </div>
             </div>
             <div className="w-full lg:w-[60%]">
-              <h2 className="text-5xl Rajdhani font-semibold">GET IN TOUCH</h2>
+              <h2 className="text-5xl Rajdhani font-semibold">Entrons en contact</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-5">
                 <input
                   type="text"
-                  placeholder="Your Name"
+                  placeholder="Votre nom"
                   className="p-3 bg-black border border-gray-600/50 focus:border-(--prim)/40 transition-all duration-300 rounded-md outline-none"
                 />
                 <input
                   type="text"
-                  placeholder="Phone Number"
+                  placeholder="Numéro de téléphone"
                   className="p-3 bg-black border border-gray-600/50 focus:border-(--prim)/40 transition-all duration-300 rounded-md outline-none"
                 />
                 <input
                   type="text"
-                  placeholder="Your Email"
+                  placeholder="Votre e-mail"
                   className="p-3 bg-black border border-gray-600/50 focus:border-(--prim)/40 transition-all duration-300 rounded-md outline-none"
                 />
                 <input
                   type="text"
-                  placeholder="Subject"
+                  placeholder="Objet"
                   className="p-3 bg-black border border-gray-600/50 focus:border-(--prim)/40 transition-all duration-300 rounded-md outline-none"
                 />
               </div>
@@ -82,7 +82,7 @@ export default function Contact() {
               <div className="mt-5">
                 <button className="btn btn1 bg-(--prim) w-full text-center flex justify-center items-center pe-4 rounded-full py-3 transition-all duration-300">
                   <i className="bi bi-arrow-right-short left-icon"></i>
-                  <span className="btn-text Rubik">Appointment Now</span>
+                  <span className="btn-text Rubik">Prendre rendez-vous</span>
                   <i className="bi bi-arrow-right-short right-icon"></i>
                 </button>
               </div>

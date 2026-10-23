@@ -9,26 +9,26 @@ const PortfolioData = [
   {
     id: 1,
     img: PortfolioImg1,
-    title: "Wedding Hair Style",
-    tag: ["UI Design", "Hair Style"],
+    title: "Coiffure de mariage",
+    tag: ["UI Design", "Coiffure"],
   },
   {
     id: 2,
     img: PortfolioImg2,
-    title: "Brand Promoting",
-    tag: ["Branding", "promoting"],
+    title: "Promotion de marque",
+    tag: ["Branding", "Promotion"],
   },
   {
     id: 3,
     img: PortfolioImg3,
-    title: "Product Marketing",
-    tag: ["Marketing", "Development"],
+    title: "Marketing produit",
+    tag: ["Marketing", "Développement"],
   },
   {
     id: 1,
     img: PortfolioImg4,
-    title: "Fashion design",
-    tag: ["Fashion", "Designer"],
+    title: "Design de mode",
+    tag: ["Mode", "Design"],
   },
 ];
 
@@ -41,10 +41,10 @@ export default function Portfolio() {
             <div className="title">
               <div className="w-full">
                 <h2 className="uppercase text-(--prim) Rubik text-xl">
-                  Recent Portfolio
+                  Portfolio récent
                 </h2>
                 <h1 className="text-5xl Rajdhani font-semibold my-3">
-                  Transforming Ideas into Exceptional
+                  Transformer des idées en expériences exceptionnelles
                 </h1>
               </div>
             </div>
@@ -52,9 +52,7 @@ export default function Portfolio() {
           <div className="w-full lg:w-1/2 ps-0 lg:ps-10">
             <div className="w-full lg:w-[70%]">
               <p className="text-gray-400">
-                Business consulting consultants provide expert advice and guida{" "}
-                <span className="text-(--prim)">businesses</span> to help them
-                improve their performance, efficiency, and organizational
+                Chaque projet raconte une histoire visuelle, une stratégie claire et une volonté de donner <span className="text-(--prim)">de la valeur</span> à l’image de la marque.
               </p>
             </div>
           </div>
@@ -89,7 +87,7 @@ export default function Portfolio() {
                     </div>
                     <button className=" mt-1 lg:mt-0 btn btn1 border border-gray-600/60 hover:bg-(--prim) transition-all duration-300 cursor-pointer hover:border-transparent pe-4 py-2 rounded-full ">
                       <i className="bi bi-arrow-right-short left-icon"></i>
-                      <span className="btn-text">View Design</span>
+                      <span className="btn-text">Voir le design</span>
                       <i className="bi bi-arrow-right-short right-icon"></i>
                     </button>
                   </div>
@@ -101,7 +99,7 @@ export default function Portfolio() {
         <div className="flex justify-center items-center mt-10">
           <button className="mt-1 lg:mt-0 btn btn1 bg-(--prim) transition-all duration-300 cursor-pointer hover:border-transparent pe-4 py-2 rounded-full">
             <i className="bi bi-arrow-right-short left-icon"></i>
-            <span className="btn-text">View All Portfolios</span>
+            <span className="btn-text">Voir tous les projets</span>
             <i className="bi bi-arrow-right-short right-icon"></i>
           </button>
         </div>

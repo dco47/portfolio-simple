@@ -6,27 +6,27 @@ import { title } from "process";
 const EducationData = [
   {
     id: 1,
-    title: "Trainer Marketing",
+    title: "Marketing & Formation",
     date: "2005-2009",
-    desc: "A personal portfolio is a curated collection of an individuals professional work, showcasing their skills, experience A personal portfolio.",
+    desc: "Une approche structurée du marketing, de la communication et de la stratégie pour accompagner les entreprises dans leur développement.",
   },
   {
     id: 2,
-    title: "Design Assistant",
+    title: "Assistante Design",
     date: "2008-2012",
-    desc: "A personal portfolio is a curated collection of an individuals professional work, showcasing their skills, experience A personal portfolio.",
+    desc: "Développement de compétences en design visuel, en expérience utilisateur et en création de contenus visuellement impactants.",
   },
   {
     id: 3,
-    title: "Assistant Director",
+    title: "Directrice Adjointe",
     date: "2010-2014",
-    desc: "A personal portfolio is a curated collection of an individuals professional work, showcasing their skills, experience A personal portfolio.",
+    desc: "Gestion de projets, coordination d’équipes et optimisation des processus créatifs et opérationnels.",
   },
   {
     id: 4,
-    title: "Creative Writer",
+    title: "Rédactrice Créative",
     date: "2018-2024",
-    desc: "A personal portfolio is a curated collection of an individuals professional work, showcasing their skills, experience A personal portfolio.",
+    desc: "Création de narratives fortes, de contenus engageants et de stratégies éditoriales pour des publics diversifiés.",
   },
 ];
 
@@ -37,22 +37,20 @@ export default function Experience() {
         <div className="title flex justify-center items-center">
           <div className="text-center w-full lg:w-[60%]">
             <h2 className="uppercase text-(--prim) Rubik text-xl">
-              Education & Experience
+              Éducation & Expérience
             </h2>
             <h1 className="text-5xl Rajdhani font-semibold my-3">
-              Empowering Creativity through
+              Donner vie à la créativité avec stratégie
             </h1>
             <p className="text-gray-400">
-              Business consulting consultants provide expert advice and guida
-              businesses to help them improve their performance, efficiency, and
-              organizational
+              Je conçois des solutions créatives et efficaces, en combinant identité visuelle, storytelling et performance digitale.
             </p>
           </div>
         </div>
 
         <div className="mt-5">
           <div className="flex items-center gap-3 mb-10">
-            <h2 className="text-4xl Rajdhani font-semibold">Education</h2>
+            <h2 className="text-4xl Rajdhani font-semibold">Formation</h2>
             <Image src={customLine} alt="customLine" />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -70,7 +68,7 @@ export default function Experience() {
             ))}
           </div>
           <div className="flex items-center gap-3 my-10 mt-15">
-            <h2 className="text-4xl Rajdhani font-semibold">Experiences</h2>
+            <h2 className="text-4xl Rajdhani font-semibold">Expériences</h2>
             <Image src={customLine} alt="customLine" />
           </div>
           <div className="flex flex-col lg:flex-row justify-between items-center gap-5">
@@ -79,34 +77,30 @@ export default function Experience() {
                 <div>
                   <div className="flex flex-col">
                     <span className="text-(--prim) Rubik">
-                      Digital Marketeur
+                      Marketing Digital
                     </span>
                     <h2 className="text-3xl Rajdhani font-semibold my-2">
-                      Soft Tech (2 Years)
+                      Soft Tech (2 ans)
                     </h2>
                     <h3 className="Rajdhani font-semibold text-gray-300">
-                      UI/UX Designer
+                      Designer UI/UX
                     </h3>
                     <p className="text-gray-400 mt-2">
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum desi dolore eu fugiat nulla pariatu Duis aute
-                      irure..
+                      Création de visuels, optimisation du parcours utilisateur et mise en place de stratégies de contenu adaptées aux besoins du marché.
                     </p>
                   </div>
                 </div>
                 <div className="mt-5">
                   <div className="flex flex-col">
-                    <span className="text-(--prim) Rubik">Developer</span>
+                    <span className="text-(--prim) Rubik">Développement</span>
                     <h2 className="text-3xl Rajdhani font-semibold my-2">
-                      ModernTech (3 Years)
+                      ModernTech (3 ans)
                     </h2>
                     <h3 className="Rajdhani font-semibold text-gray-300">
-                      App Developer
+                      Développeuse d’applications
                     </h3>
                     <p className="text-gray-400 mt-2">
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum desi dolore eu fugiat nulla pariatu Duis aute
-                      irure..
+                      Conception d’outils numériques, développement de parcours utilisateurs fluides et optimisation des expériences sur mesure.
                     </p>
                   </div>
                 </div>

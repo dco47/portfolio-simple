@@ -26,15 +26,13 @@ export default function Brands() {
         <div className="title flex justify-center items-center">
           <div className="text-center w-full lg:w-[60%]">
             <h2 className="uppercase text-(--prim) Rubik text-xl">
-              Brand I have Work With
+              Marques avec lesquelles j’ai travaillé
             </h2>
             <h1 className="text-5xl Rajdhani font-semibold my-3">
-              You can Find Me on
+              Vous pouvez me retrouver sur
             </h1>
             <p className="text-gray-400">
-              Business consulting consultants provide expert advice and guida
-              businesses to help them improve their performance, efficiency, and
-              organizational
+              Je collabore avec des marques et des entreprises qui souhaitent renforcer leur présence, améliorer leur image et faire grandir leur impact numérique.
             </p>
           </div>
         </div>

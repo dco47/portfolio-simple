@@ -9,7 +9,7 @@ export default function Hero() {
             Serena Holloway
           </h1>
           <h4 className="uppercase Rubik text-xl">
-            MODÈLE ALLEMAND · ENTREPRENEUR · CRÉATEUR DE CONTENU
+            MODÈLE ALLEMANDE · ENTREPRENEUSE · CRÉATRICE DE CONTENU
           </h4>
         </div>
         <div className="hero-header-social-icon flex flex-col gap-4">

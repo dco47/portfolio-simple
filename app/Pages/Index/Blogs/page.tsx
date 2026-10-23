@@ -10,22 +10,22 @@ const blogs = [
     id: 1,
     img: blogImg1,
     date: "15 Sep 2025",
-    category: "Ai Explore",
-    title: "The Role of Human Creativity in an Era Dominated by AI",
+    category: "IA & Création",
+    title: "Le rôle de la créativité humaine dans une ère dominée par l’IA",
   },
   {
     id: 2,
     img: blogImg2,
     date: "15 Sep 2025",
-    category: "Ai Explore",
-    title: "Future of Web Design: AI, Automation, and No-Code Tools",
+    category: "Design Web",
+    title: "L’avenir du design web : IA, automatisation et outils no-code",
   },
   {
     id: 3,
     img: blogImg3,
     date: "15 Sep 2025",
-    category: "Ai Explore",
-    title: "The Importance of Showcasing Growth in Portfolio Projects",
+    category: "Portfolio",
+    title: "L’importance de mettre en avant la croissance dans ses projets",
   },
 ];
 
@@ -34,9 +34,9 @@ export default function Blog() {
     <>
       <div className="px-[8%] lg:px-[16%] py-20 pt-10">
         <div className="title text-center">
-          <h2 className="uppercase text-(--prim) Rubik text-xl">Latest Blog</h2>
+          <h2 className="uppercase text-(--prim) Rubik text-xl">Dernier blog</h2>
           <h1 className="text-5xl Rajdhani font-semibold my-3">
-            Transforming Ideas into Exceptional <br /> the man can Creations
+            Transformer les idées en créations <br /> uniques et inspirantes
           </h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-10 gap-8">
@@ -69,7 +69,7 @@ export default function Blog() {
                     {item.title}
                 </h2>
                 <Link href="/" className="Rubik text-(--gray-pere) uppercase inline-flex items-center gap-1 group-hover:text-(--prim) transition-all">
-                    Learn More <i className="ri-arrow-right-s-line"></i>
+                    En savoir plus <i className="ri-arrow-right-s-line"></i>
                 </Link>
               </div>
             </div>

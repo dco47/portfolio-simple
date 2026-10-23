@@ -8,15 +8,13 @@ export default function Service() {
         <div className="title flex justify-center items-center">
           <div className="text-center w-full lg:w-[60%]">
             <h2 className="uppercase text-(--prim) Rubik text-xl">
-              Latest Service
+              Nos services
             </h2>
             <h1 className="text-5xl Rajdhani font-semibold my-3">
-              Inspiring The World One Project
+              Inspirez le monde à travers chaque projet
             </h1>
             <p className="text-gray-400">
-              Business consulting consultants provide expert advice and guida
-              businesses to help them improve their performance, efficiency, and
-              organizational
+              Je vous accompagne dans la création d’expériences numériques fortes, lisibles et impactantes pour votre audience.
             </p>
           </div>
         </div>
@@ -29,26 +27,22 @@ export default function Service() {
                   <div className="flex items-center gap-3">
                     <span className="Rubik text-2xl">01</span>
                     <h2 className="text-2xl Rajdhani font-semibold">
-                      {" "}
-                      A Portfolio of Creativity
+                      Portfolio créatif
                     </h2>
                   </div>
                   <p className="text-gray-400 text-md mt-3">
-                    Business consulting consultants provide expert advice and
-                    guida the a businesses to help theme their performance
-                    efficiency
+                    Une mise en valeur de votre identité visuelle, de vos projets et de votre savoir-faire à travers une présentation élégante et fonctionnelle.
                   </p>
                 </div>
                 <div className="bg-gray-600/20 p-8 rounded-2xl mt-5">
                   <div className="flex items-center gap-3">
                     <span className="Rubik text-2xl">02</span>
                     <h2 className="text-2xl Rajdhani font-semibold">
-                      My Portfolio of Innovation
+                      Innovation et stratégie
                     </h2>
                   </div>
                   <p className="text-gray-400 text-md mt-3">
-                    My work is driven by the belief that thoughtful design and
-                    strategic planning can empower brands, transform businesses
+                    Je conjuguie design réfléchi et stratégie marketing pour aider les marques à se distinguer et à transformer leur présence digitale.
                   </p>
                 </div>
 
@@ -56,13 +50,11 @@ export default function Service() {
                   <div className="flex items-center gap-3">
                     <span className="Rubik text-2xl">03</span>
                     <h2 className="text-2xl Rajdhani font-semibold">
-                      A Showcase of My Projects
+                      Présentation de projets
                     </h2>
                   </div>
                   <p className="text-gray-400 text-md mt-3">
-                    In this portfolio, you’ll find a curated selection of
-                    projects that highlight my skills in Main Areas, e.g.,
-                    responsive web design
+                    Vous trouverez ici des exemples de réalisations mettant en avant mon expertise en design, stratégie et développement web responsive.
                   </p>
                 </div>
               </div>

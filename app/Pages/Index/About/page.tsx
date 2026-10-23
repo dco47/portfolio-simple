@@ -10,16 +10,16 @@ export default function About() {
           <div className="w-full lg:w-1/2 about-left-content">
             <div className="flex flex-col md:flex-row items-end lg:flex-col gap-3">
               <div className="about-left-info">
-                <h1 className="text-7xl Rubik mb-5">10+</h1>
+                <h1 className="text-7xl Rubik mb-5">2+</h1>
                 <h2 className="text-5xl Rajdhani font-bold">
-                  Plus de 10 ans d'expérience
+                  Plus de 2 ans d'expérience
                 </h2>
               </div>
               <div className="about-left-info2">
                 <i className="bi bi-lock"></i>
                 <div className="flex flex-col">
                   <h2 className="Rubik text-2xl">Ui/Ux Design</h2>
-                  <h4 className="Rajdhani text-xl">241 Projets</h4>
+                  <h4 className="Rajdhani text-xl">10 Projets</h4>
                 </div>
               </div>
             </div>

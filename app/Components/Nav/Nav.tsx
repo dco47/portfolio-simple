@@ -12,9 +12,9 @@ type NavLink = {
 };
 
 const NavLinks: NavLink[] = [
-  { label: "Home", href: "/" },
-  { label: "A propos", href: "#about" },
-  { label: "Travail", href: "#work" },
+  { label: "Accueil", href: "/" },
+  { label: "À propos", href: "#about" },
+  { label: "Expérience", href: "#work" },
   { label: "Services", href: "#services" },
   { label: "Portfolio", href: "#portfolio" },
   { label: "Contact", href: "#contact" },
@@ -54,13 +54,13 @@ export default function Navbar() {
             <Link href="/">
               <div className="flex items-center gap-2 overflow-hidden">
                 <h1 className="MetalMania text-4xl tracking-widest">
-                  SER<span className="text-(--prim)">ENA</span>
+                  DCO<span className="text-(--prim)">PRO</span>
                 </h1>
               </div>
             </Link>
           </div>
           <div className="hidden lg:flex items-center gap-3">
-            <nav className="hidden lg:flex space-x-6 menu-link relative z-40">
+            <div className="hidden lg:flex space-x-6 menu-link relative z-40">
               {NavLinks.map((link) => (
                 <Link
                   key={link.label}
@@ -70,7 +70,7 @@ export default function Navbar() {
                   {link.label}
                 </Link>
               ))}
-            </nav>
+            </div>
           </div>
           {/* Social Icon */}
           <div className="nav-icon flex items-center gap-3">

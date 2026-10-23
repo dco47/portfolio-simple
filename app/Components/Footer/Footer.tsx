@@ -20,7 +20,7 @@ export default function Footer() {
             <div className="w-full lg:w-[70%] border-b border-r-gray-600 pb-2 flex justify-between items-center gap-2 mt-10">
               <input
                 type="text"
-                placeholder="E-mail Adress..."
+                placeholder="Adresse e-mail..."
                 className="outline-none"
               />
               <i className="bi bi-envelope"></i>
@@ -28,23 +28,23 @@ export default function Footer() {
           </div>
           <div className="footer-col ps-0 md:ps-20">
             <h2 className="text-3xl Rajdhani font-semibold mb-5">
-              Lien Rapide
+              Liens rapides
             </h2>
 
             <div className="flex w-fit footer-link flex-col gap-3">
               <div>
                 <Link href="/" className="text-xl">
-                  Home
+                  Accueil
                 </Link>
               </div>
               <div>
                 <Link href="/#about" className="text-xl">
-                  A propos
+                  À propos
                 </Link>
               </div>
               <div>
                 <Link href="/#work" className="text-xl">
-                  Travail
+                  Expérience
                 </Link>
               </div>
               <div>
@@ -60,7 +60,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="footer-col">
-            <h2 className="text-3xl Rajdhani font-semibold mb-5">Contacts</h2>
+            <h2 className="text-3xl Rajdhani font-semibold mb-5">Contact</h2>
 
             <div className="footer-contact-info">
               <div className="footer-info cursor-pointer flex items-center gap-2">
@@ -92,17 +92,17 @@ export default function Footer() {
         </div>
         <div className="footer-bottom border-t border-gray-600/30 pt-10">
             <div className="flex justify-center md:justify-between items-center gap-3 flex-wrap">
-               <p className="Rajdhani text-center">© copyright 2026. All Rights Reserved by <Link href="https://github.com/dco47" className="font-semibold">dcoTech</Link></p>
+               <p className="Rajdhani text-center">© 2026. Tous droits réservés par <Link href="https://github.com/dco47" className="font-semibold">dcoTech</Link></p>
 
                <div className="flex w-fit footer-link gap-3">
                 <div>
-                    <Link href="/" className="text-gray-400">Trams & Condition</Link>
+                    <Link href="/" className="text-gray-400">Conditions générales</Link>
                 </div>
                 <div>
-                    <Link href="/" className="text-gray-400">Privacy Policy</Link>
+                    <Link href="/" className="text-gray-400">Politique de confidentialité</Link>
                 </div>
                 <div>
-                    <Link href="/" className="text-gray-400">Contact Us</Link>
+                    <Link href="/" className="text-gray-400">Nous contacter</Link>
                 </div>
                </div>
             </div>
