@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <>
-      <div className="px-[8%] lg:px-[16%] py-20 pb-10 bg-gray-400/10">
+      <div className="px-4 sm:px-8 lg:px-[8%] 2xl:px-[14%] py-20 pb-10 bg-gray-400/10">
         <div className="footer-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pb-10">
           <div className="flex flex-col">
             <Link href="/">
@@ -13,7 +13,7 @@ export default function Footer() {
                 </h1>
               </div>
             </Link>
-            <h2 className="text-5xl Rajdhani mt-5">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl Rajdhani mt-5">
               <span className="font-semibold Rajdhani">Préparez-vous </span>à créer
               de grandes choses
             </h2>
@@ -21,7 +21,7 @@ export default function Footer() {
               <input
                 type="text"
                 placeholder="Adresse e-mail..."
-                className="outline-none"
+                className="min-w-0 w-full outline-none bg-transparent"
               />
               <i className="bi bi-envelope"></i>
             </div>
@@ -94,7 +94,7 @@ export default function Footer() {
             <div className="flex justify-center md:justify-between items-center gap-3 flex-wrap">
                <p className="Rajdhani text-center">© 2026. Tous droits réservés par <Link href="https://github.com/dco47" className="font-semibold">dcoTech</Link></p>
 
-               <div className="flex w-fit footer-link gap-3">
+               <div className="flex w-full md:w-fit footer-link gap-3 flex-wrap justify-center">
                 <div>
                     <Link href="/" className="text-gray-400">Conditions générales</Link>
                 </div>

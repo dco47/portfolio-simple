@@ -22,13 +22,13 @@ const companies = [
 export default function Brands() {
   return (
     <>
-      <div className="px-[8%] lg:px-[16%] py-20 pt-10" id="work">
+      <div className="px-4 sm:px-8 lg:px-[8%] 2xl:px-[14%] py-16 sm:py-20 pt-10" id="work">
         <div className="title flex justify-center items-center">
           <div className="text-center w-full lg:w-[60%]">
             <h2 className="uppercase text-(--prim) Rubik text-xl">
               Marques avec lesquelles j’ai travaillé
             </h2>
-            <h1 className="text-5xl Rajdhani font-semibold my-3">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl Rajdhani font-semibold my-3">
               Vous pouvez me retrouver sur
             </h1>
             <p className="text-gray-400">

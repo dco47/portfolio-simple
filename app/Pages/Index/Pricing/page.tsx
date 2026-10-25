@@ -3,16 +3,16 @@ import React from "react";
 export default function Pricing() {
   return (
     <>
-      <div className="px-[8%] lg:px-[16%] py-20 pt-10">
+      <div className="px-4 sm:px-8 lg:px-[8%] 2xl:px-[14%] py-16 sm:py-20 pt-10">
         <div className="title text-center">
           <h2 className="uppercase text-(--prim) Rubik text-xl">
             Mes offres
           </h2>
-          <h1 className="text-5xl Rajdhani font-semibold my-3">
-            Des solutions pensées pour <br /> soutenir votre croissance
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl Rajdhani font-semibold my-3">
+            Des solutions pensées pour <br className="hidden sm:block" /> soutenir votre croissance
           </h1>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-10 lg:pt-30 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-10 lg:pt-30 gap-5 lg:gap-8">
           <div className="bg-gray-600/20 p-8 rounded-2xl">
             <h4 className="text-xl mb-2 font-semibold Rajdhani">Starter</h4>
             <h2 className="text-5xl mb-2 font-bold Rajdhani">29 €</h2>

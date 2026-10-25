@@ -33,13 +33,13 @@ const EducationData = [
 export default function Experience() {
   return (
     <>
-      <div className="px-[8%] lg:px-[16%] py-20 pt-10">
+      <div className="px-4 sm:px-8 lg:px-[8%] 2xl:px-[14%] py-16 sm:py-20 pt-10">
         <div className="title flex justify-center items-center">
           <div className="text-center w-full lg:w-[60%]">
             <h2 className="uppercase text-(--prim) Rubik text-xl">
               Éducation & Expérience
             </h2>
-            <h1 className="text-5xl Rajdhani font-semibold my-3">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl Rajdhani font-semibold my-3">
               Donner vie à la créativité avec stratégie
             </h1>
             <p className="text-gray-400">
@@ -107,7 +107,7 @@ export default function Experience() {
               </div>
             </div>
             <div className="w-full lg:w-1/2">
-                <Image src={ExperienceImg} alt="ExperienceImg" className="w-full h-full rounded-2xl"/>
+                <Image src={ExperienceImg} alt="ExperienceImg" className="w-full h-auto rounded-2xl"/>
               </div>
           </div>
         </div>

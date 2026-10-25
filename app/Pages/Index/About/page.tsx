@@ -5,13 +5,13 @@ import aboutImg2 from "@/public/about-icon2.68186437.svg";
 export default function About() {
   return (
     <>
-      <div className="px-[8%] lg:px-[16%] py-20 pt-10" id="about">
+      <div className="px-4 sm:px-8 lg:px-[8%] 2xl:px-[14%] py-16 sm:py-20 pt-10" id="about">
         <div className="flex flex-col lg:flex-row justify-between items-center gap-3">
           <div className="w-full lg:w-1/2 about-left-content">
-            <div className="flex flex-col md:flex-row items-end lg:flex-col gap-3">
+            <div className="w-full flex flex-col items-center gap-3">
               <div className="about-left-info">
-                <h1 className="text-7xl Rubik mb-5">2+</h1>
-                <h2 className="text-5xl Rajdhani font-bold">
+                <h1 className="text-6xl sm:text-7xl Rubik mb-5">2+</h1>
+                <h2 className="text-3xl sm:text-4xl Rajdhani font-bold">
                   Plus de 2 ans d'expérience
                 </h2>
               </div>
@@ -29,7 +29,7 @@ export default function About() {
               <h2 className="uppercase text-(--prim) Rubik text-xl">
                 A propos de moi
               </h2>
-              <h1 className="text-5xl Rajdhani font-semibold my-3">
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl Rajdhani font-semibold my-3">
                 Boostez votre entreprise grâce à nos solutions stratégiques.
               </h1>
               <p className="text-gray-400">

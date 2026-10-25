@@ -3,7 +3,6 @@
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { link } from "fs";
 
 type NavLink = {
   label: string;
@@ -22,45 +21,35 @@ const NavLinks: NavLink[] = [
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
-  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
-
   const [scrolled, setScrolled] = useState(false);
 
-  const handleScroll = () => {
-    setScrolled(window.scrollY > 50);
-  };
-
   useEffect(() => {
-    setScrolled(window.scrollY > 50);
-
+    const handleScroll = () => setScrolled(window.scrollY > 50);
+    handleScroll();
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [handleScroll]);
+  }, []);
 
   const pathname = usePathname();
-
-  const toggleDropdown = (label: string) => {
-    setOpenDropdown((prev) => (prev === label ? null : label));
-  };
 
   return (
     <>
       {/* Navbar */}
       <div
-        className={`px-[8%] lg:px-[16%] fixed top-0 left-0 w-full z-50 navbar transition-all duration-300 ${scrolled ? "bg-black/95 backdrop-blur-md shadow-lg" : "bg-transparent"}`}
+        className={`px-4 sm:px-8 xl:px-[12%] fixed top-0 left-0 w-full z-50 navbar transition-all duration-300 ${scrolled ? "bg-black/95 backdrop-blur-md shadow-lg" : "bg-transparent"}`}
       >
-        <div className="flex justify-between items-center gap-5 py-3">
-          <div className="flex items-center gap-8">
+        <div className="flex justify-between items-center gap-3 py-3">
+          <div className="flex shrink-0 items-center gap-8">
             <Link href="/">
               <div className="flex items-center gap-2 overflow-hidden">
-                <h1 className="MetalMania text-4xl tracking-widest">
+                <h1 className="MetalMania text-3xl sm:text-4xl tracking-widest">
                   DCO<span className="text-(--prim)">PRO</span>
                 </h1>
               </div>
             </Link>
           </div>
           <div className="hidden lg:flex items-center gap-3">
-            <div className="hidden lg:flex space-x-6 menu-link relative z-40">
+            <div className="hidden lg:flex space-x-3 xl:space-x-5 menu-link relative z-40">
               {NavLinks.map((link) => (
                 <Link
                   key={link.label}
@@ -73,7 +62,7 @@ export default function Navbar() {
             </div>
           </div>
           {/* Social Icon */}
-          <div className="nav-icon flex items-center gap-3">
+          <div className="nav-icon hidden 2xl:flex items-center gap-3">
             <i className="bi bi-instagram bg-gray-800 w-10 h-10 flex justify-center items-center rounded-full"></i>
             <i className="ri-linkedin-fill bg-gray-800 w-10 h-10 flex justify-center items-center rounded-full"></i>
             <i className="bi bi-twitter bg-gray-800 w-10 h-10 flex justify-center items-center rounded-full"></i>
@@ -81,6 +70,9 @@ export default function Navbar() {
           </div>
           <div className="lg:hidden flex items-center gap-4 nav-right">
             <button
+              type="button"
+              aria-label={open ? "Fermer le menu" : "Ouvrir le menu"}
+              aria-expanded={open}
               className="lg:hidden flex flex-col gap-1.25"
               onClick={() => setOpen(!open)}
             >
@@ -105,6 +97,7 @@ export default function Navbar() {
                   <Link
                     key={link.label}
                     href={link.href}
+                    onClick={() => setOpen(false)}
                     className="flex items-center justify-between text-white border-b border-white/30 text-lg tracking-wide hover:text-(--prim) transition-all"
                   >
                     {link.label}

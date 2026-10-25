@@ -27,6 +27,11 @@
   scroll-behavior: smooth;
 }
 
+body {
+  margin: 0;
+  overflow-x: clip;
+}
+
 .MetalMania {
   font-family: var(--font-metaMania);
 }
@@ -76,7 +81,9 @@ body {
 
 .hero-header {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  min-height: 100svh;
+  padding: 7rem 1rem 5rem;
   background: url(../public/photo.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -90,8 +97,19 @@ body {
 }
 
 .hero-content {
-  width: 100%;
+  width: min(100%, 72rem);
   margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: clamp(2.75rem, 10vw, 6rem);
+  line-height: 1.05;
+}
+
+.hero-content h4 {
+  max-width: 42rem;
+  margin: 1rem auto 0;
+  font-size: clamp(0.75rem, 2.5vw, 1.25rem);
 }
 
 .hero-header-social-icon {
@@ -137,16 +155,17 @@ body {
   position: absolute;
   bottom: -5%;
   left: 0;
-  width: 400px;
-  height: 400px;
+  width: min(400px, 90%);
+  aspect-ratio: 1;
   border-radius: 100%;
   background: var(--gradient-box);
   z-index: -1;
 }
 
 .about-left-info {
-  width: 400px;
-  height: 400px;
+  width: min(400px, 100%);
+  min-height: 400px;
+  height: auto;
   background-color: rgba(255, 255, 255, 0.05);
   border-radius: 10px;
   backdrop-filter: blur(10px);
@@ -159,7 +178,8 @@ body {
 }
 
 .about-left-info2 {
-  width: 400px;
+  width: min(400px, 100%);
+  min-width: 0;
   background-color: rgba(255, 255, 255, 0.03);
   border-radius: 10px;
   backdrop-filter: blur(10px);
@@ -276,6 +296,7 @@ body {
 .footer-info p {
   transition: var(--transition-regular);
   position: relative;
+  overflow-wrap: anywhere;
 }
 .footer-info p:after {
   content: "";
@@ -291,4 +312,30 @@ body {
   width: 100%;
   right: auto;
   left: 0;
+}
+
+@media (max-width: 600px) {
+  .hero-header {
+    min-height: 90vh;
+    min-height: 90svh;
+  }
+
+  .about-left-info {
+    min-height: 320px;
+    padding: 2rem;
+  }
+
+  .about-left-info h2 {
+    font-size: clamp(2rem, 9vw, 3rem);
+  }
+
+  .about-left-info2 {
+    padding: 1.25rem;
+  }
+
+  .about-left-info2 i {
+    flex: 0 0 3.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
 }

@@ -1,11 +1,11 @@
 export default function Contact() {
   return (
     <>
-      <div className="px-[8%] lg:px-[16%] py-20 pt-0 md:pt-20" id="contact">
-        <div className="bg-gray-600/20 p-8 rounded-2xl">
+      <div className="px-4 sm:px-8 lg:px-[8%] 2xl:px-[14%] py-16 sm:py-20 pt-0 md:pt-20" id="contact">
+        <div className="bg-gray-600/20 p-5 sm:p-8 rounded-2xl">
           <div className="flex flex-col lg:flex-row justify-between items-center">
             <div className="w-full lg:w-1/3">
-              <h2 className="text-7xl Rajdhani font-semibold">
+              <h2 className="text-4xl sm:text-5xl lg:text-6xl Rajdhani font-semibold">
                 Préparez-vous à créer de grandes choses
               </h2>
               <div className="my-5">
@@ -15,7 +15,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h2 className="text-gray-400">E-mail</h2>
-                    <p className="Rajdhani font-semibold text-lg">
+                    <p className="Rajdhani font-semibold text-lg break-all">
                       djablechristian0@gmail.com
                     </p>
                   </div>
@@ -51,7 +51,7 @@ export default function Contact() {
               </div>
             </div>
             <div className="w-full lg:w-[60%]">
-              <h2 className="text-5xl Rajdhani font-semibold">Entrons en contact</h2>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl Rajdhani font-semibold">Entrons en contact</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-5">
                 <input
                   type="text"
